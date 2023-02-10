@@ -1,0 +1,22 @@
+.navbar-padding {
+  padding-top: 60px;
+}
+
+.login-box {
+  margin: auto;
+  text-align: center;
+  width: 33%;
+
+  border: 3px solid #1976d2;
+  border-radius: 5px;
+  background-color: white;
+  justify-content: center;
+}
+
+.title {
+  margin: 10px;
+}
+
+.login-button {
+  margin: 5px;
+}
