@@ -1,6 +1,21 @@
 <div class="navbar-padding"></div>
-<ul>
-  <li *ngFor="let artist of artists">
-    {{artist.name}}
-  </li>
-</ul>
+<div class="login-error-box" *ngIf="authorized===false">
+  <div>
+    Remember to login
+  </div>
+</div>
+
+<div class="artist-listing" *ngIf="artists!==undefined">
+  <b>Top-Artists</b>
+  <div *ngFor="let artist of artists">
+    <div class="artist-listing-entry">
+      <picture>
+        <img src="{{artist.images[0].url}}" width=40px alt="Picture of artist">
+      </picture>
+      <a class=artist-link href="{{artist.externalUrls.externalUrls.spotify}}" target="_blank" rel="noopener">
+        {{artist.name}}
+      </a>
+    </div>
+  </div>
+</div>
+

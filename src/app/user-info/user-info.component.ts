@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {UserInfoService} from "../services/user-info.service";
+import {Artist} from "../model/artist";
 
 @Component({
   selector: 'app-user-info',
@@ -11,18 +12,24 @@ export class UserInfoComponent implements OnInit{
 
   }
 
-  artists:any[] | undefined;
-
+  artists:Artist[] | undefined;
+  authorized:boolean = false;
 
   getTopArtists() {
-    return this.userService.getTopArtists();
+    return this.userService.getTopArtists()
+      .subscribe({
+        next: response => {
+          this.authorized = true;
+          this.artists = response;
+        },
+        error: () => {
+          this.authorized = false;
+        }
+      });
   }
 
   ngOnInit(): void {
-    this.getTopArtists()
-      .subscribe(response => {
-        this.artists = response;
-      });
+    this.getTopArtists();
   }
 
 }
