@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+.navbar-padding {
+  padding-top: 70px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.router-outlet {
+  min-height: 100%;
+}
+
+.footerbar-container {
+  margin-top: 40px;
+  height: 40px;
+  width: 100%;
+
+  background: #2e3869;
+  color: white;
+}
