@@ -1,4 +1,5 @@
 import {Artist} from "./artist";
+import {ExternalUrls} from "./externalUrls";
 
 export interface Track {
   album: {
@@ -6,13 +7,7 @@ export interface Track {
     albumType: string,
     artists: Artist[]
     availableMarkets: string[],
-    externalUrls: {
-      externalUrls: {
-        additionalProp1: string,
-        additionalProp2: string,
-        additionalProp3: string
-      }
-    },
+    externalUrls: ExternalUrls,
     href: string,
     id: string,
     images: {
@@ -40,25 +35,12 @@ export interface Track {
       additionalProp3: string
     }
   },
-  externalUrls: {
-    externalUrls: {
-      spotify: string,
-      additionalProp1: string,
-      additionalProp2: string,
-      additionalProp3: string
-    }
-  },
+  externalUrls: ExternalUrls,
   href: string,
   id: string,
   isPlayable: boolean,
   linkedFrom: {
-    externalUrls: {
-      externalUrls: {
-        additionalProp1: string,
-        additionalProp2: string,
-        additionalProp3: string
-      }
-    },
+    externalUrls: ExternalUrls,
     href: string,
     id: string,
     type: string,

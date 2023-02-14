@@ -1,23 +1,18 @@
+import {ExternalUrls} from "./externalUrls";
+import {Image} from "./image";
+
 export interface Artist {
-  externalUrls: {
-    externalUrls: {
-      spotify:string
-    }
-  },
+  externalUrls: ExternalUrls,
   followers: {
-    href:string,
-    total:number
+    href: string,
+    total: number
   }
-  genres:string[],
-  href:string,
-  id:string,
-  images:{
-    height:number,
-    url:string,
-    width:number
-  }[],
-  name:string,
-  popularity:number,
-  type:string,
-  uri:string
+  genres: string[],
+  href: string,
+  id: string,
+  images: Image[],
+  name: string,
+  popularity: number,
+  type: string,
+  uri: string
 }
