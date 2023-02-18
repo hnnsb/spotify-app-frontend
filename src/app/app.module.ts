@@ -13,7 +13,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatSelectModule} from "@angular/material/select";
 import {MatInputModule} from "@angular/material/input";
-import {FormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {LoginWarningComponent} from './components/login-warning/login-warning.component';
 import {MatButtonModule} from "@angular/material/button";
@@ -21,6 +21,7 @@ import {MatCardModule} from "@angular/material/card";
 import {ArtistListingComponent} from './components/listing-artist/artist-listing.component';
 import {MatTabsModule} from "@angular/material/tabs";
 import {TrackListingComponent} from './components/listing-track/track-listing.component';
+import {CollectionComponent} from './pages/collection/collection.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import {TrackListingComponent} from './components/listing-track/track-listing.co
     LoginWarningComponent,
     ArtistListingComponent,
     TrackListingComponent,
+    CollectionComponent,
   ],
   imports: [
     BrowserModule,
@@ -46,7 +48,8 @@ import {TrackListingComponent} from './components/listing-track/track-listing.co
     MatToolbarModule,
     MatButtonModule,
     MatCardModule,
-    MatTabsModule
+    MatTabsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

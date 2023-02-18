@@ -28,28 +28,27 @@ export class UserInfoComponent implements OnInit {
 
   artists: Artist[] | undefined;
   tracks: Track[] | undefined;
-  authorized: boolean = false;
+  authorized: boolean = true;
 
   getTopArtists() {
-    return this.userService.getTopArtists(this.selectedTimeRange.value, this.amount)
+    this.userService.getTopArtists(this.selectedTimeRange.value, this.amount)
       .subscribe({
         next: response => {
-          this.authorized = true;
           this.artists = response;
+          this.authorized = true;
         },
         error: () => {
           this.authorized = false;
-
         }
       });
   }
 
   getTopTracks() {
-    return this.userService.getTopTracks(this.selectedTimeRange.value, this.amount)
+    this.userService.getTopTracks(this.selectedTimeRange.value, this.amount)
       .subscribe({
         next: response => {
-          this.authorized = true;
           this.tracks = response;
+          this.authorized = true;
         },
         error: () => {
           this.authorized = false;
@@ -60,6 +59,7 @@ export class UserInfoComponent implements OnInit {
   ngOnInit(): void {
     this.getTopArtists();
     this.getTopTracks();
+    console.log(this.authorized);
   }
 
   onChange(newValue: number): void {

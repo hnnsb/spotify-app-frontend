@@ -1,8 +1,8 @@
-<div *ngIf="authorized===false">
+<div *ngIf="!authorized">
   <app-login-warning></app-login-warning>
 </div>
 
-<div *ngIf="authorized===true" class="rankings">
+<div *ngIf="authorized" class="rankings">
   <mat-form-field appearance="fill">
     <mat-label>Time Range</mat-label>
     <mat-select [(ngModel)]="selectedTimeRange" (ngModelChange)="getTopArtists();getTopTracks()">

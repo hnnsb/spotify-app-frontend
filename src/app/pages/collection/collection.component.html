@@ -1,0 +1,19 @@
+<div>
+  <mat-form-field>
+    <input type="text" matInput placeholder="Search Album" name="search" [(ngModel)]="searchQuery" (keyup)="search()">
+    <button matSuffix mat-raised-button class="clear-button" color="warn" (click)="searchResult=[];searchQuery='';">
+      Clear
+    </button>
+  </mat-form-field>
+
+  <div *ngFor="let album of searchResult">
+    <mat-option value="{{album}}" (click)="choose(album)">
+      <img mat-card-image src="{{album.images[0].url}}" width=40px alt="Picture of album">
+      {{album.name}}
+      -
+      <span *ngFor="let artist of album.artists; let index=index;">
+      {{artist.name}}<span *ngIf="index<album.artists.length-1">,</span>
+      </span>
+    </mat-option>
+  </div>
+</div>
