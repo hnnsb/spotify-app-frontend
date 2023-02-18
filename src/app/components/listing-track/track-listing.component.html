@@ -1,0 +1,20 @@
+<div class="artist-listing" *ngIf="tracks!==undefined">
+  <div *ngFor="let track of tracks">
+    <mat-card class="entry">
+      <mat-card-content>
+        <img mat-card-image src="{{track.album.images[0].url}}" width=40px alt="Picture of Track">
+        <a class=artist-link href="{{track.externalUrls.externalUrls.spotify}}" target="_blank" rel="noopener">
+          <b>{{track.name}}</b>
+          -
+          <span *ngFor="let artist of track.artists; let index=index;">
+            {{artist.name}}<span *ngIf="index<track.artists.length-1">, </span>
+          </span>
+        </a>
+        <audio controls>
+          <source src="{{track.previewUrl}}" type="audio/ogg">
+          Your browser does not support the audio preview
+        </audio>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

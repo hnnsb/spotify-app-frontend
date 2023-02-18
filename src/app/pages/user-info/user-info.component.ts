@@ -1,8 +1,8 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {UserInfoService} from "../../services/user-info.service";
-import {Artist} from "../../model/artist";
 import {TimeRange} from "../../model/timeRange";
 import {Track} from "../../model/track";
+import {Artist} from "../../model/artist";
 
 
 @Component({
@@ -15,7 +15,6 @@ export class UserInfoComponent implements OnInit {
 
   }
 
-  @Input()
   amount: number = 10;
 
   timeRanges: TimeRange[] = [
@@ -40,6 +39,7 @@ export class UserInfoComponent implements OnInit {
         },
         error: () => {
           this.authorized = false;
+
         }
       });
   }

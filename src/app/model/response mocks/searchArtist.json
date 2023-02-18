@@ -1,0 +1,382 @@
+[
+  {
+    "externalUrls": {
+      "externalUrls": {
+        "spotify": "https://open.spotify.com/artist/2LTDsDjf02umXildBzlrKZ"
+      }
+    },
+    "followers": {
+      "href": null,
+      "total": 26240
+    },
+    "genres": [
+      "german indie",
+      "german indie pop",
+      "german rock",
+      "neue neue deutsche welle"
+    ],
+    "href": "https://api.spotify.com/v1/artists/2LTDsDjf02umXildBzlrKZ",
+    "id": "2LTDsDjf02umXildBzlrKZ",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab6761610000e5ebce78f40cf744e375c7541459",
+        "width": 640
+      },
+      {
+        "height": 320,
+        "url": "https://i.scdn.co/image/ab67616100005174ce78f40cf744e375c7541459",
+        "width": 320
+      },
+      {
+        "height": 160,
+        "url": "https://i.scdn.co/image/ab6761610000f178ce78f40cf744e375c7541459",
+        "width": 160
+      }
+    ],
+    "name": "Betterov",
+    "popularity": 49,
+    "type": "ARTIST",
+    "uri": "spotify:artist:2LTDsDjf02umXildBzlrKZ"
+  },
+  {
+    "externalUrls": {
+      "externalUrls": {
+        "spotify": "https://open.spotify.com/artist/1r93D0anfnfL4M7tYTce0J"
+      }
+    },
+    "followers": {
+      "href": null,
+      "total": 124927
+    },
+    "genres": [
+      "neue neue deutsche welle"
+    ],
+    "href": "https://api.spotify.com/v1/artists/1r93D0anfnfL4M7tYTce0J",
+    "id": "1r93D0anfnfL4M7tYTce0J",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab6761610000e5eb4f9e0a516a32659a16cb12d1",
+        "width": 640
+      },
+      {
+        "height": 320,
+        "url": "https://i.scdn.co/image/ab676161000051744f9e0a516a32659a16cb12d1",
+        "width": 320
+      },
+      {
+        "height": 160,
+        "url": "https://i.scdn.co/image/ab6761610000f1784f9e0a516a32659a16cb12d1",
+        "width": 160
+      }
+    ],
+    "name": "Edwin Rosen",
+    "popularity": 62,
+    "type": "ARTIST",
+    "uri": "spotify:artist:1r93D0anfnfL4M7tYTce0J"
+  },
+  {
+    "externalUrls": {
+      "externalUrls": {
+        "spotify": "https://open.spotify.com/artist/3DX6TJtDUfOov1NKF18IXh"
+      }
+    },
+    "followers": {
+      "href": null,
+      "total": 2583
+    },
+    "genres": [],
+    "href": "https://api.spotify.com/v1/artists/3DX6TJtDUfOov1NKF18IXh",
+    "id": "3DX6TJtDUfOov1NKF18IXh",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab6761610000e5eb9da1e8ab2da97cda93fecc80",
+        "width": 640
+      },
+      {
+        "height": 320,
+        "url": "https://i.scdn.co/image/ab676161000051749da1e8ab2da97cda93fecc80",
+        "width": 320
+      },
+      {
+        "height": 160,
+        "url": "https://i.scdn.co/image/ab6761610000f1789da1e8ab2da97cda93fecc80",
+        "width": 160
+      }
+    ],
+    "name": "Lena&Linus",
+    "popularity": 38,
+    "type": "ARTIST",
+    "uri": "spotify:artist:3DX6TJtDUfOov1NKF18IXh"
+  },
+  {
+    "externalUrls": {
+      "externalUrls": {
+        "spotify": "https://open.spotify.com/artist/25Maank76ry2Tmbi2Ql1SF"
+      }
+    },
+    "followers": {
+      "href": null,
+      "total": 288252
+    },
+    "genres": [
+      "punk",
+      "ska",
+      "ska punk",
+      "skate punk"
+    ],
+    "href": "https://api.spotify.com/v1/artists/25Maank76ry2Tmbi2Ql1SF",
+    "id": "25Maank76ry2Tmbi2Ql1SF",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab6761610000e5eba036cf8a81e30b81b76ab056",
+        "width": 640
+      },
+      {
+        "height": 320,
+        "url": "https://i.scdn.co/image/ab67616100005174a036cf8a81e30b81b76ab056",
+        "width": 320
+      },
+      {
+        "height": 160,
+        "url": "https://i.scdn.co/image/ab6761610000f178a036cf8a81e30b81b76ab056",
+        "width": 160
+      }
+    ],
+    "name": "The Interrupters",
+    "popularity": 57,
+    "type": "ARTIST",
+    "uri": "spotify:artist:25Maank76ry2Tmbi2Ql1SF"
+  },
+  {
+    "externalUrls": {
+      "externalUrls": {
+        "spotify": "https://open.spotify.com/artist/2VSHKHBTiXWplO8lxcnUC9"
+      }
+    },
+    "followers": {
+      "href": null,
+      "total": 557077
+    },
+    "genres": [
+      "modern alternative pop"
+    ],
+    "href": "https://api.spotify.com/v1/artists/2VSHKHBTiXWplO8lxcnUC9",
+    "id": "2VSHKHBTiXWplO8lxcnUC9",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab6761610000e5ebea3e9265575b9cd71749ca3e",
+        "width": 640
+      },
+      {
+        "height": 320,
+        "url": "https://i.scdn.co/image/ab67616100005174ea3e9265575b9cd71749ca3e",
+        "width": 320
+      },
+      {
+        "height": 160,
+        "url": "https://i.scdn.co/image/ab6761610000f178ea3e9265575b9cd71749ca3e",
+        "width": 160
+      }
+    ],
+    "name": "GAYLE",
+    "popularity": 71,
+    "type": "ARTIST",
+    "uri": "spotify:artist:2VSHKHBTiXWplO8lxcnUC9"
+  },
+  {
+    "externalUrls": {
+      "externalUrls": {
+        "spotify": "https://open.spotify.com/artist/0exhrQcReCdr11oPbOh22M"
+      }
+    },
+    "followers": {
+      "href": null,
+      "total": 119348
+    },
+    "genres": [
+      "british alternative rock",
+      "east anglia indie",
+      "modern alternative rock",
+      "modern rock"
+    ],
+    "href": "https://api.spotify.com/v1/artists/0exhrQcReCdr11oPbOh22M",
+    "id": "0exhrQcReCdr11oPbOh22M",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab6761610000e5eb7a54d926dfe2ea126dddeb0f",
+        "width": 640
+      },
+      {
+        "height": 320,
+        "url": "https://i.scdn.co/image/ab676161000051747a54d926dfe2ea126dddeb0f",
+        "width": 320
+      },
+      {
+        "height": 160,
+        "url": "https://i.scdn.co/image/ab6761610000f1787a54d926dfe2ea126dddeb0f",
+        "width": 160
+      }
+    ],
+    "name": "Deaf Havana",
+    "popularity": 48,
+    "type": "ARTIST",
+    "uri": "spotify:artist:0exhrQcReCdr11oPbOh22M"
+  },
+  {
+    "externalUrls": {
+      "externalUrls": {
+        "spotify": "https://open.spotify.com/artist/3PyJHH2wyfQK3WZrk9rpmP"
+      }
+    },
+    "followers": {
+      "href": null,
+      "total": 1868271
+    },
+    "genres": [
+      "alt z",
+      "dance pop",
+      "electropop",
+      "escape room",
+      "pop"
+    ],
+    "href": "https://api.spotify.com/v1/artists/3PyJHH2wyfQK3WZrk9rpmP",
+    "id": "3PyJHH2wyfQK3WZrk9rpmP",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab6761610000e5eb9535efdcc4cb09bcad47ba55",
+        "width": 640
+      },
+      {
+        "height": 320,
+        "url": "https://i.scdn.co/image/ab676161000051749535efdcc4cb09bcad47ba55",
+        "width": 320
+      },
+      {
+        "height": 160,
+        "url": "https://i.scdn.co/image/ab6761610000f1789535efdcc4cb09bcad47ba55",
+        "width": 160
+      }
+    ],
+    "name": "Ashnikko",
+    "popularity": 72,
+    "type": "ARTIST",
+    "uri": "spotify:artist:3PyJHH2wyfQK3WZrk9rpmP"
+  },
+  {
+    "externalUrls": {
+      "externalUrls": {
+        "spotify": "https://open.spotify.com/artist/2hR4h1Cao2ueuI7Cx9c7V8"
+      }
+    },
+    "followers": {
+      "href": null,
+      "total": 3616235
+    },
+    "genres": [
+      "bedroom pop",
+      "indie pop"
+    ],
+    "href": "https://api.spotify.com/v1/artists/2hR4h1Cao2ueuI7Cx9c7V8",
+    "id": "2hR4h1Cao2ueuI7Cx9c7V8",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab6761610000e5eba0ac627e34c7d1eee4edd2c1",
+        "width": 640
+      },
+      {
+        "height": 320,
+        "url": "https://i.scdn.co/image/ab67616100005174a0ac627e34c7d1eee4edd2c1",
+        "width": 320
+      },
+      {
+        "height": 160,
+        "url": "https://i.scdn.co/image/ab6761610000f178a0ac627e34c7d1eee4edd2c1",
+        "width": 160
+      }
+    ],
+    "name": "Cavetown",
+    "popularity": 75,
+    "type": "ARTIST",
+    "uri": "spotify:artist:2hR4h1Cao2ueuI7Cx9c7V8"
+  },
+  {
+    "externalUrls": {
+      "externalUrls": {
+        "spotify": "https://open.spotify.com/artist/5txbmtnymyiJppmAe4mxBk"
+      }
+    },
+    "followers": {
+      "href": null,
+      "total": 299
+    },
+    "genres": [
+      "slovenian hip hop"
+    ],
+    "href": "https://api.spotify.com/v1/artists/5txbmtnymyiJppmAe4mxBk",
+    "id": "5txbmtnymyiJppmAe4mxBk",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b27395f1f08ca5bbe374f95699ec",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e0295f1f08ca5bbe374f95699ec",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d0000485195f1f08ca5bbe374f95699ec",
+        "width": 64
+      }
+    ],
+    "name": "Better",
+    "popularity": 5,
+    "type": "ARTIST",
+    "uri": "spotify:artist:5txbmtnymyiJppmAe4mxBk"
+  },
+  {
+    "externalUrls": {
+      "externalUrls": {
+        "spotify": "https://open.spotify.com/artist/1B5kBgmgK7bjNLqz1cGOuF"
+      }
+    },
+    "followers": {
+      "href": null,
+      "total": 95
+    },
+    "genres": [],
+    "href": "https://api.spotify.com/v1/artists/1B5kBgmgK7bjNLqz1cGOuF",
+    "id": "1B5kBgmgK7bjNLqz1cGOuF",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273182b91b56bd5eb5ec8850d15",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02182b91b56bd5eb5ec8850d15",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851182b91b56bd5eb5ec8850d15",
+        "width": 64
+      }
+    ],
+    "name": "Better",
+    "popularity": 2,
+    "type": "ARTIST",
+    "uri": "spotify:artist:1B5kBgmgK7bjNLqz1cGOuF"
+  }
+]

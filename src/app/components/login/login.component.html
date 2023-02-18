@@ -1,7 +1,8 @@
-<div class="navbar-padding"><!--Padding because of navbar--></div>
-<div class="login-box">
-  <div class="title">
+<mat-card class="login-box">
+  <mat-card-content>
     Login to Spotify
-  </div>
-  <button class="login-button" (click)="login()">Login</button>
-</div>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" (click)="login()">Login</button>
+    </mat-card-actions>
+  </mat-card-content>
+</mat-card>

@@ -1,29 +1,9 @@
 import {Artist} from "./artist";
 import {ExternalUrls} from "./externalUrls";
+import {Album} from "./album";
 
 export interface Track {
-  album: {
-    albumGroup: string,
-    albumType: string,
-    artists: Artist[]
-    availableMarkets: string[],
-    externalUrls: ExternalUrls,
-    href: string,
-    id: string,
-    images: {
-      height: number,
-      url: string,
-      width: number
-    }[],
-    name: string,
-    releaseDate: string,
-    releaseDatePrecision: string,
-    restrictions: {
-      reason: string
-    },
-    type: string,
-    uri: string
-  },
+  album: Album,
   artists: Artist[]
   availableMarkets: string[],
   discNumber: number,

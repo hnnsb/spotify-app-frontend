@@ -1,0 +1,12 @@
+<div class="artist-listing" *ngIf="artists!==undefined">
+  <div *ngFor="let artist of artists">
+    <mat-card class="entry">
+      <mat-card-content>
+        <img mat-card-image src="{{artist.images[0].url}}" width=40px alt="Picture of artist">
+        <a class=artist-link href="{{artist.externalUrls.externalUrls.spotify}}" target="_blank" rel="noopener">
+          <b>{{artist.name}}</b>
+        </a>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
