@@ -13,6 +13,6 @@ export class SearchService {
   }
 
   searchAlbum(query: string): Observable<Album[]> {
-    return this.http.get<Album[]>(environment.backendUrl + '/search/album', {params: {"query": query}});
+    return this.http.get<Album[]>(environment.backendUrl + '/spotify/search/album', {params: {"query": query}});
   }
 }

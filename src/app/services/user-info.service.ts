@@ -9,7 +9,7 @@ import {Observable} from "rxjs";
   providedIn: 'root'
 })
 export class UserInfoService {
-  requestUrl = environment.backendUrl + "/users";
+  requestUrl = environment.backendUrl + "/spotify/users";
 
   constructor(private http: HttpClient) {
   }

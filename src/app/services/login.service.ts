@@ -1,5 +1,5 @@
-import { Injectable } from '@angular/core';
-import { environment } from "../../environments/environment";
+import {Injectable} from '@angular/core';
+import {environment} from "../../environments/environment";
 import {HttpClient} from "@angular/common/http";
 
 
@@ -8,14 +8,15 @@ import {HttpClient} from "@angular/common/http";
 })
 export class LoginService {
 
-  constructor( private http: HttpClient) { }
+  constructor(private http: HttpClient) {
+  }
 
-  loginUrl = environment.backendUrl + "/login";
+  loginUrl = environment.backendUrl + "/spotify/login";
 
   getLoginUri() {
     console.log("LoginService has been called")
     type result = {
-      url?:string
+      url?: string
     };
 
     let request = this.http.get<result>(this.loginUrl);
